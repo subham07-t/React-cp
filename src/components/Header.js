@@ -17,7 +17,7 @@ const Header = () => {
     {/* Header */}
     <header>
       <nav>
-          <section className="px-12 py-8">
+          <section className="lg:px-12 pl-6 py-8">
               <main className="flex items-center justify-between">
 
               {/* <!-- logo & navbar --> */}
@@ -43,14 +43,14 @@ const Header = () => {
 
               {/* <!-- extra --> */}
 
-                  <section className="flex items-center space-x-5"> 
+                  <section className="flex items-center  lg:space-x-5 "> 
                       <div>
-                          <ul className="flex items-center space-x-4">
+                          <ul className="flex items-center justify-end lg:space-x-4">
                               <li className="lg:block hidden">
-                                 <SearchButton/>
+                                 <SearchButton />
                               </li>
                               <li className="mt-1">
-                                  <button className="inline-flex items-center py-1 px-3  text-base md:mt-0">
+                                  <button className="inline-flex items-center py-1 lg:px-3 pr-2  text-base md:mt-0">
                                   <img src={process.env.PUBLIC_URL +"/imgs/Icon.svg"} className="pr-2"/>login
                                   </button>
                               </li>
@@ -68,9 +68,9 @@ const Header = () => {
           </section>
 
           {/* <!-- mobile navbar --> */}
-          <section className={`lg:hidden block p-4 space-y-4 ${open? 'block':'hidden'}`}>
+          <section className={`lg:hidden block p-4 space-y-2 bg-gray-200 transition-all ease-in-out duration-500 overflow-hidden ${open? 'h-auto text-xl opacity-1':'h-0 p-0 text-sm opacity-0'}`}>
               <div>
-                  <ul className="flex flex-col items-center space-y-5">
+                  <ul className="flex flex-col items-start space-y-2">
                   {
                      links.map((val)=>(
                                     <li key={val.name}>

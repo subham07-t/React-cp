@@ -59,7 +59,7 @@ const Footer = () => {
        {/* <!-- Footer --> */}
        <footer className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap md:text-left text-center order-first">
+          <div className="flex flex-wrap md:text-left  text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <img src={process.env.PUBLIC_URL + "/imgs/logo2.svg"} className="flex title-font font-medium items-center text-gray-900 pl-4 pr-4 mb-4 md:mb-0"/>
             </div>
@@ -84,7 +84,7 @@ const Footer = () => {
             }
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">NEWSLETTER</h2>
-              <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+              <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-center">
                 <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                   <p htmlFor="footer-field" className="leading-7 text-sm text-gray-600">Join over <a className="text-indigo-700 underline">68,000 </a>people getting our emails</p>
                   <input type="text" id="footer-field" name="footer-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Enter your email"/>

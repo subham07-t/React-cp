@@ -42,7 +42,7 @@ const Team = () => {
       <section className="text-gray-600 body-font">
             <div className="container px-24 py-24 mx-auto">
               <div className="flex flex-col text-start w-full mb-20">
-                <h1 className="text-3xl font-medium title-font mb-4 text-gray-900">OUR CORE TEAM PLAYERS.</h1>
+                <h1 className="text-4xl font-bold title-font mb-4 text-gray-900">OUR CORE <br/>TEAM PLAYERS.</h1>
               </div>
               <div className="flex flex-wrap -m-4 lg:space-x-12 justify-center">
 

@@ -5,9 +5,9 @@ const Teastimonial = () => {
     <>
           {/* <!-- Testimonials --> */}
           <section className="text-gray-600 body-font">
-            <div className="container mx-auto flex px-5 py-24 justify-center md:flex-row flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img className="object-cover object-center rounded" src={process.env.PUBLIC_URL + "/imgs/Group 19868.svg"}/>
+            <div className="container mx-auto flex px-5 py-24  justify-center md:flex-row flex-col items-center">
+              <div className="lg:max-w-lg lg:w-full  md:w-1/2  mb-10 md:mb-0">
+                <img  src={process.env.PUBLIC_URL + "/imgs/Group 19868.svg"}/>
               </div>
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className=" p-6 ">

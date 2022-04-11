@@ -3,6 +3,7 @@ import Header from './Header'
 import Banner from './Banner'
 import Work from './Work'
 import About from './About'
+import OurStory from './OurStory'
 import WhyUs from './WhyUs'
 import Team from './Team'
 import Teastimonial from './Teastimonial'
@@ -18,6 +19,7 @@ const Main = () => {
          <Banner/>
          <Work/>
          <About/>
+         <OurStory/>
          <WhyUs/>
          <Team/>
          <Teastimonial/>

@@ -35,10 +35,10 @@ const Partners = () => {
   return (
     <>
       {/* <!-- Our Partners --> */}
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 bg-gray-100 body-font">
             <div className="container px-5 py-24 mx-auto">
               <div className="flex flex-col text-start w-full mb-20 pl-24">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900">Our partners</h1>
+                <h1 className="sm:text-4xl text-5xl font-bold title-font mb-4 text-gray-900">Our partners</h1>
               </div>
 
               {
@@ -49,7 +49,7 @@ const Partners = () => {
                 </div>{
                   val.content.map((value)=>(
                 <div className="xl:w-1/4 md:w-1/2 p-4" key={value.id}>
-                  <div className="bg-gray-100 p-6 rounded-lg">
+                  <div className=" p-6 rounded-lg">
                     <img className="h-40 rounded w-full object-cover object-center mb-6 lg:p-8" src={process.env.PUBLIC_URL + value.imgSrc} alt="content"/>
                   </div>
                 </div>       
