@@ -1,0 +1,168 @@
+.ourAchivements .top {
+    margin: 0 14rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .ourAchivements .top > div {
+    max-width: 30rem;
+  }
+  
+  .ourAchivements .top h1 {
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6rem;
+    /* or 122% */
+    letter-spacing: -0.01rem;
+    color: #090d26;
+  }
+  
+  .ourAchivements .top .slidebtns button {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.4rem;
+    cursor: pointer;
+  }
+  
+  .ourAchivements .top .slidebtns button:first-child {
+    background-color: white;
+    color: black;
+  }
+  
+  .ourAchivements .stories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 4rem 0;
+    height: 38rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  .ourAchivements .stories::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .ourAchivements .stories .story {
+    position: relative;
+    min-width: 24rem;
+    width: 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  .ourAchivements .stories .story img {
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  
+  .ourAchivements .stories .story .full {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.809)), color-stop(32%, rgba(0, 0, 0, 0.172)), to(rgba(0, 0, 0, 0)));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.809) 0%, rgba(0, 0, 0, 0.172) 32%, rgba(0, 0, 0, 0) 100%);
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .ourAchivements .content {
+    color: #ffffff;
+    margin: 2rem;
+    padding: 2rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+  }
+  
+  .ourAchivements .content.blue {
+    background: linear-gradient(156.86deg, #0f64d6 -21.76%, #0cbcfc 107.41%);
+  }
+  
+  .ourAchivements .content div:last-child {
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  
+  .ourAchivements .content .show {
+    height: 5rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 1;
+  }
+  
+  .ourAchivements .content .hide {
+    height: 0rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0;
+  }
+  
+  .ourAchivements .content div:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    /* max-width: 16rem; */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .ourAchivements .top {
+      margin: 1rem;
+      
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+
+    }
+  }
+  /*# sourceMappingURL=o.css.map */
